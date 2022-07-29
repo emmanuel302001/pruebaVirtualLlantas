@@ -7,7 +7,7 @@
 6. La carpeta principal debe llamarse pruebaVirtualLlantas, en caso de que al descargar el directorio quede pruebaVirtualLlantas-main, se debe renombrar la carpeta a pruebaVirtualLlantas.
 7. El usuario y contraseña para acceder a la página web son: usuario: root, contraseña: 12345
 
-#SQL
+SQL
 Los comandos para la segunda parte de la prueba técnica serían:
 Primer query: SELECT sku as codigo,SUM(cantidad) AS totalcantidad,SUM(costo_unitario) as valorventa, SUM(costo_unitario) as totalcosto FROM facturacion_detalle GROUP BY sku ORDER BY totalcantidad DESC;
 
