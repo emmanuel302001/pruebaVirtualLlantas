@@ -22,7 +22,7 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
-
+CREATE DATABASE `virtualllantas`;
 --
 -- Estructura de tabla para la tabla `facturacion`
 --
